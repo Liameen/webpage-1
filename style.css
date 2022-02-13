@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+}
+
+#bird {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 30px;
+    height: auto;
+}
+
+.logoLinks {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.naturepics {
+    display: flex;
+    
+}
+
+.container {
+    display: flex;
+    padding: 20px 300px;
+}
+
+.container.div {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    
+}
+
+
+#earthPic, #naturePic,
+#sciencePic, #spacePic {
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    height: auto;
+    margin: 0 20px ;
+    padding: 15px 0 0 30px;
+    
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    display: flex;
+    padding: 10px;
+}
+
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+#quoteDiv {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 600px;
+    height: auto;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
