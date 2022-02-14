@@ -22,6 +22,20 @@
     padding: 30px;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-color: white;
+}
+
 #bird {
     display: flex;
     align-items: center;
@@ -45,32 +59,34 @@
     flex-direction: column;
 }
 
-.naturepics {
-    display: flex;
-    
-}
+
 
 .container {
     display: flex;
-    padding: 20px 300px;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
 }
 
-.container.div {
+.picText {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 150px;
+    height: auto;
+    
     
 }
+
 
 
 #earthPic, #naturePic,
 #sciencePic, #spacePic {
-    display: flex;
-    justify-self: center;
     width: 150px;
     height: auto;
-    margin: 0 20px ;
-    padding: 15px 0 0 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+    
     
 }
 
@@ -85,8 +101,10 @@ h2{
 
 h3 {
     display: flex;
-    padding: 10px;
+    padding: 5px;
+    font-size: 18px;
 }
+
 
 
 
@@ -98,10 +116,12 @@ h3 {
 }
 
 #quoteDiv {
+    font-style: italic;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     padding: 40px;
-    width: 600px;
+    width: 800px;
     height: auto;
 }
 
@@ -109,4 +129,29 @@ h3 {
 a {
     color: white;
     text-decoration: none;
+}
+
+
+.subQuote {
+    padding: 40px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
 }
